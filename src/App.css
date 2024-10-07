@@ -12,7 +12,71 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.bounce{
+ animation: bounce 2s ease infinite;
+}
+.winning{
+  color: darkgreen;
+}
+img{
+  width: 200px;
+}
 
+@-webkit-keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.fadeOut {
+  -webkit-animation-name: fadeOut, spin;
+  animation-name: fadeOut,spin;
+  -webkit-animation-duration: 500ms;animation-duration: 500ms;
+  -webkit-animation-fill-mode: both;animation-fill-mode: both;
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 6s;animation-duration: 6s;
+  -webkit-animation-fill-mode: both;animation-fill-mode: both;
+}
+.spinAnimation{
+  animation-name: spin;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+.btn{
+  font-size: 55px !important;
+}
+.playIcon{
+  font-size: 180px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,7 +87,22 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.iconLoading{
+  font-size: 180px;
+  margin-left: 120px;
+  margin-bottom: 670px;
+}
+.playIcons{
+  font-size: 180px;
+  margin-right: 200px !important;
+  margin-bottom: 340px;
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
 .App-link {
   color: #61dafb;
 }
