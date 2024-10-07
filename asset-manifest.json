@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/slotgame/static/css/main.32da0fe6.css",
+    "main.js": "/slotgame/static/js/main.1c8f0fe2.js",
+    "static/js/453.472bd3c9.chunk.js": "/slotgame/static/js/453.472bd3c9.chunk.js",
+    "static/media/winningSound.wav": "/slotgame/static/media/winningSound.abeb47073e87976cdb18.wav",
+    "static/media/roulette.png": "/slotgame/static/media/roulette.f4679b8383201bfcaef6.png",
+    "index.html": "/slotgame/index.html",
+    "main.32da0fe6.css.map": "/slotgame/static/css/main.32da0fe6.css.map",
+    "main.1c8f0fe2.js.map": "/slotgame/static/js/main.1c8f0fe2.js.map",
+    "453.472bd3c9.chunk.js.map": "/slotgame/static/js/453.472bd3c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32da0fe6.css",
+    "static/js/main.1c8f0fe2.js"
+  ]
+}
